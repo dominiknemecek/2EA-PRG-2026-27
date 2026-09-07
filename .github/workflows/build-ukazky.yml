@@ -1,0 +1,41 @@
+name: Build ukázek
+
+on:
+  push:
+    paths:
+      - "**/*.c"
+      - "**/*.h"
+      - ".github/workflows/build-ukazky.yml"
+  pull_request:
+    paths:
+      - "**/*.c"
+      - "**/*.h"
+  workflow_dispatch:
+
+jobs:
+  build:
+    # Obyčejné C se sestaví kdekoli, proto ubuntu-latest (rychlejší
+    # a levnější než Windows runner). Arduino sketche (.ino) CI
+    # nesestavuje — potřebovaly by Arduino toolchain navíc, viz
+    # README v kapitole 06-zaklady-mikropocitacu.
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sestavit všechny ukázkové programy
+        shell: bash
+        run: |
+          set -euo pipefail
+          chyby=0
+          while IFS= read -r -d '' soubor; do
+            echo "== Sestavuji $soubor =="
+            if ! gcc -Wall -Wextra -std=c11 "$soubor" -o /tmp/out -lm; then
+              chyby=1
+            fi
+          done < <(find . -name '*.c' -not -path './.git/*' -print0)
+
+          if [ "$chyby" -ne 0 ]; then
+            echo "Sestavení selhalo u jednoho nebo více souborů výše."
+            exit 1
+          fi

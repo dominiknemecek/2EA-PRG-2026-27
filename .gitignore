@@ -1,0 +1,25 @@
+# Sestavené binárky
+*.o
+*.obj
+*.out
+*.exe
+a.out
+
+# Code::Blocks
+*.depend
+*.layout
+obj/
+bin/
+
+# VS Code / CLion
+.vscode/
+.idea/
+cmake-build-*/
+
+# Arduino (arduino-cli / PlatformIO build cache)
+build/
+.pio/
+
+# OS
+.DS_Store
+Thumbs.db

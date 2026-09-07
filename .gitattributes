@@ -1,0 +1,10 @@
+# Repozitář vzniká na macOS (LF), studenti budou commitovat z Windows
+# (CRLF) — bez normalizace by to způsobovalo zbytečné diffy a varování
+# v editoru.
+* text=auto
+
+# binární soubory — pro jistotu do budoucna
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
