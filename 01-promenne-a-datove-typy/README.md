@@ -15,6 +15,7 @@ základní datové typy C nabízí a jak se čte vstup od uživatele.
 | Projekt | Co ukazuje |
 | --- | --- |
 | [01-vstup-a-vystup](ukazky/01-vstup-a-vystup) | Proměnné, datové typy, `printf`/`scanf` |
+| [02-vypocty](ukazky/02-vypocty) | Celočíselné vs. desetinné dělení, priorita operátorů, `+=`/`++` |
 
 Každou ukázku zkompilujete a spustíte příkazem (na Linuxu/macOS/přes
 WSL nebo MinGW na Windows):

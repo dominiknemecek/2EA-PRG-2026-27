@@ -13,6 +13,7 @@ Jak se program větví podle vstupu: `if` / `else if` / `else` a `switch`.
 | Projekt | Co ukazuje |
 | --- | --- |
 | [01-if-a-switch](ukazky/01-if-a-switch) | `if`/`else if`/`else`, `switch` se `break` |
+| [02-logicke-operatory](ukazky/02-logicke-operatory) | `&&`, `\|\|`, `!`, ternární operátor `?:` |
 
 ## Zápisky z hodin
 

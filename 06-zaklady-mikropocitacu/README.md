@@ -18,12 +18,15 @@ mikrokontrolér Arduino.
   (`digitalWrite`).
 - Použít `delay()` k časování a chápat, že po tu dobu se nic jiného
   neděje (blokující čekání).
+- Přečíst stav digitálního vstupu (`digitalRead`) a vysvětlit, k čemu je
+  vnitřní pull-up rezistor (`INPUT_PULLUP`).
 
 ## Ukázky
 
 | Projekt | Co ukazuje |
 | --- | --- |
 | [01-blikani-led](ukazky/01-blikani-led) | `setup`/`loop`, `pinMode`, `digitalWrite`, `delay` |
+| [02-tlacitko](ukazky/02-tlacitko) | `digitalRead`, `INPUT_PULLUP`, LED řízená tlačítkem |
 
 ## Co budete potřebovat navíc
 

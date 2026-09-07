@@ -14,6 +14,7 @@ Opakování kódu: `for`, `while` a `do-while`.
 | Projekt | Co ukazuje |
 | --- | --- |
 | [01-for-while-do](ukazky/01-for-while-do) | `for`, `while`, `do-while` |
+| [02-vnorene-cykly](ukazky/02-vnorene-cykly) | Cyklus v cyklu — obdélník, trojúhelník, násobilková tabulka |
 
 ## Zápisky z hodin
 

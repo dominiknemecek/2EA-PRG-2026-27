@@ -17,6 +17,7 @@ samostatný typ.
 | --- | --- |
 | [01-pole](ukazky/01-pole) | Deklarace pole, procházení cyklem, hledání maxima |
 | [02-retezce](ukazky/02-retezce) | Řetězec jako pole znaků, `<string.h>` |
+| [03-razeni](ukazky/03-razeni) | Řazení bublinkou (bubble sort) — princip řadicího algoritmu |
 
 ## Zápisky z hodin
 

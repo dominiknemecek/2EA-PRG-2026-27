@@ -15,6 +15,7 @@ vytvořit vlastní datový typ, který drží dohromady víc hodnot (`struct`).
 | --- | --- |
 | [01-funkce](ukazky/01-funkce) | Vlastní funkce, parametry hodnotou vs. ukazatelem |
 | [02-struktury](ukazky/02-struktury) | Vlastní `struct`, funkce pracující se `struct` |
+| [03-pole-struktur](ukazky/03-pole-struktur) | Pole `struct` (seznam studentů), funkce počítající průměr |
 
 ## Zápisky z hodin
 
