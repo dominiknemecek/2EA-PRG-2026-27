@@ -3,14 +3,14 @@
 Zadání a řešení jednotlivých hodin — každá hodina má vlastní podsložku
 s kódem, na kterou se v tabulce odkazuje sloupec **Složka**.
 
-| Téma hodiny | Složka | Skupina S1 (datum) | Skupina S2 (datum) | Obsah |
-| --- | --- | --- | --- | --- |
-| Úvod do jazyka C, proměnné | [01-zaklady-programovani-c](01-zaklady-programovani-c) | 2026-09-24 | 2026-09-24 | Hello world, proměnné a výpis přes printf |
-| | | 2026-10-?? | 2026-10-?? | |
-| | | 2026-10-?? | 2026-10-?? | |
-| | | 2026-10-?? | 2026-10-?? | |
-| | | 2026-10-?? | 2026-10-?? | |
-| | | 2026-10-?? | 2026-10-?? | |
-| | | 2026-10-?? | 2026-10-?? | |
-| | | 2026-10-?? | 2026-10-?? | |
-| | | 2026-11-?? | 2026-11-?? | |
+| Téma hodiny | Složka | Obsah |
+| --- | --- | --- |
+| Úvod do jazyka C, proměnné | [01-zaklady-programovani-c](01-zaklady-programovani-c) | Hello world, proměnné a výpis přes printf |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
